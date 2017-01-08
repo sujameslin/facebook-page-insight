@@ -1,7 +1,7 @@
 {
-  "name": "es6-express-boilerplate",
+  "name": "facebook-insight",
   "version": "1.0.0",
-  "description": "Express boilerplate using ES6, Handlebars as template",
+  "description": "Get facebook insight data using fb graph api",
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/app.js",
@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-register": "^6.18.0",
     "body-parser": "^1.15.2",
+    "config": "^1.24.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"

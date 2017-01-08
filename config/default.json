@@ -1,5 +1,7 @@
 {
   "facebook": {
-    "pageId": "342384606160125"
+    "pageId": "342384606160125",
+    "appId": null,
+    "appSecret": null
   }
 }
