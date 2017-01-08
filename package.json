@@ -1,0 +1,30 @@
+{
+  "name": "es6-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Express boilerplate using ES6, Handlebars as template",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "dev-start": "nodemon --exec \"npm start\" --ignore public/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James Lin <jameslin@gmx.hk>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-env": "^1.1.6",
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "babel-register": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
