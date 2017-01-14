@@ -2,6 +2,7 @@
   "facebook": {
     "pageId": "342384606160125",
     "appId": null,
-    "appSecret": null
+    "appSecret": null,
+    "redirectUri": "http://localhost:3000/login/callback"
   }
 }
